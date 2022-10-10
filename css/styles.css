@@ -16,4 +16,10 @@
     text-decoration: none;
   }
 
-  
+  nav {
+    font-family: "Roboto", Arial, Verdana;
+    font-weight: 400;
+    letter-spacing: .05em;
+    background-color: #829356;
+    padding: 25px;
+  }
