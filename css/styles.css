@@ -23,3 +23,17 @@
     background-color: #829356;
     padding: 25px;
   }
+
+  h1, .top-nav {
+      text-align: center;
+  }
+
+  .top-nav, .top-nav li {
+    width: 100%; 
+
+  }
+
+  h1, a, .top-nav align-self {
+    color: #000;
+
+  }
