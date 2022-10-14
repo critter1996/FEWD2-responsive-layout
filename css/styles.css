@@ -47,3 +47,7 @@
     margin: 5px auto;
     background-color: #fff;
   }
+
+  .top-nav a {
+    text-transform: uppercase;
+  }
