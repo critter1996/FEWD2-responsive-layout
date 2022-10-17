@@ -20,8 +20,32 @@
   text-align: center;
   letter-spacing: 1px;
   padding-top: 5px;
-
 }
+
+  .box-1 {
+    background-color: #093145;
+  }
+  
+  .box-2 {
+    background-color: #3C6478;
+  }
+  
+  .box-3 {
+    background-color: #107896;
+  }
+  
+  .box-4 {
+    background-color: #829356;
+  }
+  
+  .box-5 {
+    background-color: #C2571A;
+  }
+  
+  .box-6 {
+    background-color: #9A2617;
+  }
+
   body {
     margin: 0 auto;
     max-width: 1024px;
