@@ -51,3 +51,28 @@
   .top-nav a {
     text-transform: uppercase;
   }
+
+
+
+  /* Media Queries   */
+
+  @media (min-width: 768px) {
+    .top-nav {
+      margin-top: 0;
+    }
+
+    .top-nav li {
+      display: inline-block;
+      width: auto;
+      margin-right: 15px;
+      background-color: transparent;
+    }
+
+    .top-nav li:last-child {
+      margin-right: 0;
+    }
+
+    .top-nav a {
+      color: #fff;
+    }
+  }
