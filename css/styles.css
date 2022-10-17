@@ -47,8 +47,13 @@
   }
 
   body {
+    display:flex;
+    flex-direction: column;
     margin: 0 auto;
     max-width: 1024px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #fff;
   }
 
   ul {
@@ -58,6 +63,8 @@
 
   a {
     text-decoration: none;
+    text-transform: uppercase;
+    color: white;
   }
 
   nav {
@@ -94,6 +101,16 @@
 
   .top-nav a {
     text-transform: uppercase;
+  }
+
+  footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0, 20px;
+    height: 100px;
+    background-color: #107896;
   }
 
 
