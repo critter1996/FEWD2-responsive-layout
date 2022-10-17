@@ -113,6 +113,10 @@
     background-color: #107896;
   }
 
+  .full {
+    display: none;
+  }
+
 
 
   /* Media Queries   */
