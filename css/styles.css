@@ -56,6 +56,8 @@
 
   /* Media Queries   */
 
+
+/*Tablet Size*/
   @media (min-width: 768px) {
     .top-nav {
       margin-top: 0;
@@ -68,11 +70,34 @@
       background-color: transparent;
     }
 
+    /*  .top-nav li:last-child removes the margin-right on the last li element inside of the ul with the class of .top-nav,
+         so that the nav links stay perfectly centered in the browser.
+         added margin-right: 15px to give the li elements a bit of space between each other.*/
     .top-nav li:last-child {
       margin-right: 0;
     }
 
     .top-nav a {
       color: #fff;
+    }
+  }
+
+  /*Made the nav element the flex parent by adding display: flex;. 
+    Moved the name and navigation to opposite sides of the browser by adding justify-content: space-between;. 
+    Vertically centered the name and navigation by adding align-items: center;. 
+    Laptop Size*/
+  @media (min-width: 1024px) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+/* Removed the width: 100%; we have set on the ul and li elements by changing to width: initial;. 
+   Removed the 16px bottom margin from by using margin-bottom: 0;.*/
+
+    .top-nav, .top-nav li {
+      width: initial;
+      margin-bottom: 0;
     }
   }
