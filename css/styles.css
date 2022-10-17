@@ -46,6 +46,10 @@
     background-color: #9A2617;
   }
 
+  header {
+    background-color: #f0f1e8;
+  }
+
   body {
     display:flex;
     flex-direction: column;
@@ -71,7 +75,7 @@
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #829356;
+    background-color: #f0f1e8;
     padding: 25px;
   }
 
@@ -103,14 +107,18 @@
     text-transform: uppercase;
   }
 
+  img {
+    width: 100%;
+  }
+
   footer {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: auto;
     padding: 0, 20px;
     height: 100px;
-    background-color: #107896;
+    background-color: #f0f1e8;
   }
 
   .full {
