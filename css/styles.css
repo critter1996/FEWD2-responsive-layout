@@ -1,7 +1,27 @@
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+    /* Limit the width of the container to 1100px,
+    add a bit of bottom padding, 
+    and then center it horizontally on the page.*/
+  .container {
+    max-width: 1100px;
+    padding: 10px;
+    margin: 0, auto;
+    font-family: 'Roboto', sans-serif;
   }
 
+.col {
+  margin: 10px;
+  min-height: 250px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 5px;
+
+}
   body {
     margin: 0 auto;
     max-width: 1024px;
