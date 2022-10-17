@@ -124,12 +124,25 @@
     .top-nav a {
       color: #fff;
     }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+      /* Set the flex-basis for the boxes, which works similar to width but for flex children. 
+      For the 768px media query we will be using flex-basis: calc(50% - 20px); on the col class.
+      What this does, is ensure the boxes take up exactly 50% in our 2 column layout without breaking
+      to a new line due to the 20px total left and right margin we added in the mobile-first code.*/
+
+      .col {
+        flex-basis: calc(50% - 20px);
+      }
   }
 
-  /*Made the nav element the flex parent by adding display: flex;. 
-    Moved the name and navigation to opposite sides of the browser by adding justify-content: space-between;. 
-    Vertically centered the name and navigation by adding align-items: center;. 
-    Laptop Size*/
+    /*Made the nav element the flex parent by adding display: flex;. 
+      Moved the name and navigation to opposite sides of the browser by adding justify-content: space-between;. 
+      Vertically centered the name and navigation by adding align-items: center;. 
+      Laptop Size*/
   @media (min-width: 1024px) {
     nav {
       display: flex;
@@ -144,4 +157,12 @@
       width: initial;
       margin-bottom: 0;
     }
+
+    /*Added the min-width: 1024px media query and set the boxes width to take up 1/3rd of the containers width
+    using flex-basis: calc(33.333% - 20px);. 
+    Again removing the margins we set from the 33.333% width we want the items to take up.*/
+    .col {
+      flex-basis: calc(33.333% -20px;)
+    }
+
   }
