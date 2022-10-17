@@ -23,7 +23,8 @@
 }
 
   .box-1 {
-    background-color: #093145;
+    background-color: transparent;
+    color:  black;
   }
   
   .box-2 {
@@ -48,6 +49,18 @@
 
   header {
     background-color: #f0f1e8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: .02em;
+    padding: 25px;
+
+  }
+
+  .portfolio {
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+
+
   }
 
   body {
