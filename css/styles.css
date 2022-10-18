@@ -48,7 +48,7 @@
   }
 
   header {
-    background-color: #f4f7f8;
+    background-color: #f0f1e8;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: .02em;
@@ -114,10 +114,12 @@
     padding: 10px 0;
     margin: 5px auto;
     background-color: #fff;
+    color: black;
   }
 
   .top-nav a {
     text-transform: uppercase;
+    
   }
 
   img {
@@ -164,7 +166,7 @@
     }
 
     .top-nav a {
-      color: #fff;
+      color: black;
     }
 
     .container {
@@ -207,6 +209,7 @@
     .top-nav, .top-nav li {
       width: initial;
       margin-bottom: 0;
+      color: black;
     }
 
     /*Added the min-width: 1024px media query and set the boxes width to take up 1/3rd of the containers width
