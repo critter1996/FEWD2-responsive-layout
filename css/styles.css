@@ -48,7 +48,7 @@
   }
 
   header {
-    background-color: #f0f1e8;
+    background-color: #f4f7f8;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: .02em;
@@ -70,7 +70,7 @@
     max-width: 1024px;
     font-family: 'Roboto', sans-serif;
     color: black;
-    background-color: #fff;
+    background: #fff;
   }
 
   ul {
@@ -88,7 +88,7 @@
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #f0f1e8;
+    background-color: #f4f7f8;
     padding: 25px;
   }
 
@@ -131,7 +131,7 @@
     margin-top: auto;
     padding: 0, 20px;
     height: 100px;
-    background-color: #f0f1e8;
+    background-color: #f4f7f8;
   }
 
   .full {
