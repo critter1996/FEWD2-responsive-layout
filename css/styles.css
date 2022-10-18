@@ -40,8 +40,8 @@
 
   #contact {
     padding: 10px;
-    margin-top: 100px;
     background-color: #f4f7f8;
+    border-bottom: solid #e6eaef;
   }
 
   body {
@@ -115,7 +115,6 @@
     padding: 0, 20px;
     height: 100px;
     background-color: #f4f7f8;
-    border-top: #000 1px; 
   }
 
   .full {
