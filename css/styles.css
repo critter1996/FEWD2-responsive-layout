@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
   }
     /* Limit the width of the container to 1100px,
     add a bit of bottom padding, 
@@ -13,7 +11,7 @@
     font-family: 'Roboto', sans-serif;
   }
 
-.col {
+  .col {
   margin: 10px;
   min-height: 250px;
   color: #fff;
@@ -28,7 +26,8 @@
   }
   
   .box-2 {
-    background-color: #3C6478;
+    background-color: transparent;
+    color: black;
   }
   
   .box-3 {
