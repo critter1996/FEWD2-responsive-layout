@@ -33,9 +33,12 @@
     padding: 25px;
   }
 
-  #portfolio, #contact {
+  #portfolio, #contact, #skills {
     text-align:center;
     font-family: 'Roboto', sans-serif;
+  }
+  #skills {
+    background: slategrey;
   }
 
   #contact {
