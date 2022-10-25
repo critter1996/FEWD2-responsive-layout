@@ -200,11 +200,9 @@
     /*Added the min-width: 1024px media query and set the boxes width to take up 1/3rd of the containers width
     using flex-basis: calc(33.333% - 20px);. 
     Again removing the margins we set from the 33.333% width we want the items to take up.*/
-    /* .col {
-      flex-basis: calc(33.333% -20px);
-    } */
 
     .col {
       flex-basis: calc(33.333% - 20px);
+    }
 
   }
